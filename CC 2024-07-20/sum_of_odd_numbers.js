@@ -18,20 +18,24 @@ Calculate the sum of the numbers in the nth row of this triangle (starting at in
 
 
 
-// My solution //
+// MY SOLUTION //
 
-// a triangle of consecutive odd numbers => n rows, n starts at 1, input is the row number
+//PARAMETERS: a triangle of consecutive odd numbers => n rows, n starts at 1, input is the row number
 
-// return sum of the numbers in row n 
+//RESULT: return sum of the numbers in row n 
 
+//EXAMPLES:
 // 1 -->  1
 // 2 --> 3 + 5 = 8
 // 42 --> 74088
 
+//PSEUDOCODE: 
 // Create a function that take in row number
 function rowSumOddNumbers(n) {
     // sum of numbers in row n => n power by 3
     let sumOfNumbers = Math.pow(n, 3);
+
+    // return sum of numbers
     return sumOfNumbers
 }
 

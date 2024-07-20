@@ -9,17 +9,18 @@ For example, when an array is passed like [19, 5, 42, 2, 77], the output should 
 */
 
 
-//  My solution 
+// MY SOLUTION //
 
-// an array => 4 positive integers,whole numbers greater than 0,no floats , no negative integers
+//PARAMETERS: an array => 4 positive integers,whole numbers greater than 0,no floats , no negative integers
 
-// return the sum of the 2 lowest numbers in the array
+//RESULT: return the sum of the 2 lowest numbers in the array
 
+//EXAMPLES:
 // if an array is [19, 5, 42, 2, 77] than sum should be 7
 // if an array is [5, 8, 12, 19, 22] than sum should be 13
 // if an array is [23, 71, 33, 82, 1] than sum should be 24
 
-
+//PSEUDOCODE: 
 // Make a function that takes an array of positive integers
 function sumTwoSmallestNumbers(numbers) {
   // sort the array from smallest to largest
