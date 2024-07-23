@@ -31,7 +31,7 @@ For example:
 //  ["a", "a", "b", "c"], ["a", "a", "b", "c"] -->  16
 //  ["b", "c", "b", "a"], ["", "a", "a", "c"] --> 0
 
-//PSEUDOCODE: create a function that take in 2 array of same length, 
+//PSEUDOCODE: function that take in 2 array of same length, variable with value of 0, loop to compare the answers in an array,give different score,return the total score 
 
 function checkExam(array1, array2) {
     let score = 0
