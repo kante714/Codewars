@@ -11,7 +11,10 @@ Find the sum of the odd numbers within an array, after cubing the initial intege
 
 //RESULT: return the sum of the odd numbers within an array after cubing the initial integers or return undefined if any values aren't numbers
 
-//EXAMPLES: 
+//EXAMPLES: (Input --> Ouput)
+// [1, 2, 3, 4] --> 28
+// [-3, -2, 2, 3] --> 0
+// ["a", 12, 9, "z", 42] --> undefined
 
 //PSEUDOCODE: function that take in an array, to check if an array contain any string use filter method with length property, if all element in array is numbers than check for odd numbers, cube the odd numbers than return the sum of the cubed odd numbers using reduce method else if an array contain any string return undefined 
 
