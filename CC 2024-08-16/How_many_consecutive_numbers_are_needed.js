@@ -67,4 +67,4 @@ console.log(consecutive([-1, -5]), 3);
 //     }
 //   }
 //   return count;
-}
+// }
